@@ -1,8 +1,10 @@
+"use client";
 
-export default function Home() {
-  return (
-    <div className="text-2xl">
-      hi there
-    </div>
-  );
+import { useBalance } from "@repo/store/useBalance";
+
+export default function() {
+  const balance = useBalance();
+  return <div>
+    hi there {balance}
+  </div>
 }
