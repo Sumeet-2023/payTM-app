@@ -3,6 +3,8 @@ import db from "@repo/db/client";
 
 const app = express();
 
+app.use(express.json())
+
 app.post("/hdfcWebhook", async (req, res) => {
     // Add zod validation 
     const paymentInformation: {
