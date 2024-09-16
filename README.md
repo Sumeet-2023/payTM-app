@@ -1,5 +1,4 @@
 ## Payment application
-In process..........
 
 ### Tech Stack
 
